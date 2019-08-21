@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8aa36835398478df8481c8bdc0a28fd5",
+    "packages": [
+        {
+            "name": "missing-u/unify-redis",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/missing-u/unify-redis.git",
+                "reference": "b88ab8b13e6bf57bb70526c34953b7e7b8addedb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/missing-u/unify-redis/zipball/b88ab8b13e6bf57bb70526c34953b7e7b8addedb",
+                "reference": "b88ab8b13e6bf57bb70526c34953b7e7b8addedb",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UnifyRedis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "杨益民",
+                    "email": "744541711@qq.com"
+                }
+            ],
+            "description": "对 redis 进行简要封装",
+            "keywords": [
+                "laravel"
+            ],
+            "time": "2019-08-20T14:19:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}

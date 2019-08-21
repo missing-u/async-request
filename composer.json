@@ -1,0 +1,26 @@
+{
+    "name": "missing-u/async-request",
+    "description": "Laravel 异步请求",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "杨益民",
+            "email": "744541711@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*",
+        "missing-u/unify-redis": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AsyncRequest\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}
